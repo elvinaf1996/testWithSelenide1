@@ -9,7 +9,7 @@ import pages.WearPage;
 public class OrderWithIncorrectPhoneTest extends BaseTest {
 
     @Test()
-    public void checkingSortProductsByCost() {
+    public void orderWithIncorrectPhoneTest() {
         HomePage homePage = new HomePage();
         homePage.openPage()
                 .clickGoToWear();
