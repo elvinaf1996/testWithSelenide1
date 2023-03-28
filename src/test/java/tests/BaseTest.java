@@ -10,7 +10,7 @@ import org.junit.Before;
 
 public abstract class BaseTest {
 
-    public static final ProjectConfig cfg = ConfigFactory.create(ProjectConfig.class);
+    public static final ProjectConfig config = ConfigFactory.create(ProjectConfig.class);
 
     @Before
     public void setUp() {
